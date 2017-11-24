@@ -6,4 +6,4 @@
 
 Abrir navegador **http://localhost:5000**
 
-Versión en producción: [https://express-pug.herokuapp.com/]
+Versión en producción: https://express-pug.herokuapp.com/

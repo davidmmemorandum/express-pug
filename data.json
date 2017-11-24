@@ -1,0 +1,9 @@
+{
+	"title": "Hey",
+	"message": "Hola mundo, que bien <strong>estamos de viernes!</strong>",
+	"e": {
+		"id": "ID007",
+		"label": "Esto es <span style=\"color:red\">rojo</span>",
+		"P2002": "jajaja, que bien <em>P2002</em>"
+	}
+}

@@ -1,0 +1,14 @@
+html
+  head
+    title= title
+  body
+    h1!= message
+    h1= message
+    p
+      a(href='?version='+e.id) #{e.label}
+        if e.P2002
+          | - #{e.P2002}
+    p
+      a(href='?version='+e.id) !{e.label}
+        if e.P2002
+          | - !{e.P2002}

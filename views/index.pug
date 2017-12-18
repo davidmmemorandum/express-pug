@@ -1,3 +1,6 @@
+mixin label-truncate(text, length)
+  span=text.substring(0, length)
+
 html
   head
     title= title
@@ -12,3 +15,16 @@ html
       a(href='?version='+e.id) !{e.label}
         if e.P2002
           | - !{e.P2002}
+
+    p
+      a.item-link(href='/resource/'+r['id'])
+        |
+        +label-truncate(r.label, 15)  
+        |
+        if r.P1008 
+          |
+          | !{r.P1008}
+        |
+        if r.P1009
+          |
+          | !{r.P1009}
